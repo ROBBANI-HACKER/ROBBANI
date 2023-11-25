@@ -13,13 +13,13 @@ logo="""
 \33[1;32m====================================================
 \033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m AUTHOR  \033[1;91m : \033[1;95mRIBBANI ISLAM
 \033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m FACEBOOK\033[1;91m : \033[1;95mROBBANI GAM
-\033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m GROUP  \033[1;91m  : \033[1;95mTERMUX-COURSE
+\033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m GROUP  \033[1;91m  : \033[1;95mROBBANI TARMUX
 \033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m TOOLS   \033[1;91m : \033[1;95mSMS BOMBING 
 \033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m VERSION \033[1;91m : \033[1;91m1.0
 \33[1;32m====================================================
 """
 print(logo)
-os.system("xdg-open https://t.me/@robbanihacker")
+os.system("xdg-open https://www.facebook.com/robbane.gam.1")
 nmbr=input("\033[1;31mENTER VICTIM NUMBER : +880")
 total=int(input("\033[1;33m ENTER SMS AMMOUNT  : "))
 print("""\033[1;32m\n\nWAIT FEW SECOND AND SEE
